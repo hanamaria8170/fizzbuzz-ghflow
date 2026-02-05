@@ -1,0 +1,223 @@
+# https://www.toptal.com/developers/gitignore/api/windows,vim,python 에서 생성됨
+# https://www.toptal.com/developers/gitignore?templates=windows,vim,python 에서 수정하세요
+
+### 파이썬 ###
+# 바이트 컴파일/최적화/DLL 파일
+__pycache__/
+*.py[코드]
+*$py.class
+
+# C 확장 기능
+*.그래서
+
+# 유통/포장
+.파이썬
+짓다/
+난자 발달/
+거리/
+다운로드/
+계란/
+.계란/
+lib/
+lib64/
+부분품/
+sdist/
+var/
+바퀴/
+공유/파이썬휠/
+*.egg-info/
+.installed.cfg
+*.계란
+명백한
+
+# PyInstaller
+# 일반적으로 이러한 파일은 템플릿을 사용하는 파이썬 스크립트에 의해 작성됩니다.
+# PyInstaller가 실행 파일을 빌드하기 전에 날짜/기타 정보를 삽입하기 위한 것입니다.
+*.명백한
+*.투기
+
+# 설치 프로그램 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 단위 테스트/코드 커버리지 보고서
+htmlcov/
+.톡스/
+.nox/
+.적용 범위
+.적용 범위.*
+.은닉처
+코 테스트.xml
+커버리지.xml
+*.씌우다
+*.py,커버
+.가설/
+.pytest_cache/
+씌우다/
+
+# 번역
+*.mo
+*.냄비
+
+# Django 관련 내용:
+*.통나무
+로컬 설정.py
+db.sqlite3
+db.sqlite3-저널
+
+# Flask 관련 내용:
+사례/
+.웹애셋캐시
+
+# 잡다한 것들:
+.스크래피
+
+# Sphinx 문서
+docs/_build/
+
+# 파이빌더
+.pybuilder/
+목표/
+
+# 주피터 노트북
+.ipynb_checkpoints
+
+# IPython
+프로필_기본값/
+ipython_config.py
+
+# pyenv
+# 라이브러리나 패키지의 경우 코드가 이미 포함되어 있으므로 이러한 파일은 무시해도 됩니다.
+# 여러 환경에서 실행되도록 설계되었습니다. 그렇지 않은 경우, 해당 코드를 커밋하세요.
+# .python-버전
+
+# pipenv
+# pypa/pipenv#598에 따르면 Pipfile.lock을 버전 관리 시스템에 포함하는 것이 좋습니다.
+# 하지만 협업의 경우, 플랫폼별 종속성이나 기타 종속성이 있는 경우에는
+# 플랫폼 간 호환성이 없으므로 pipenv는 작동하지 않는 종속성을 설치하거나 아예 설치하지 않을 수 있습니다.
+# 필요한 모든 종속성을 설치합니다.
+#Pipfile.lock
+
+# 시
+# Pipfile.lock과 마찬가지로 poetry.lock도 버전 관리 시스템에 포함하는 것이 일반적으로 권장됩니다.
+# 이는 재현성을 보장하기 위해 특히 바이너리 패키지에 권장되며, 더 많은 이점을 제공합니다.
+# 라이브러리에서 일반적으로 무시되는 사항입니다.
+# https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+# Pipfile.lock과 마찬가지로 pdm.lock도 버전 관리 시스템에 포함하는 것이 일반적으로 권장됩니다.
+#pdm.lock
+# pdm은 프로젝트 전체 설정을 .pdm.toml 파일에 저장하지만, 이 파일을 포함하지 않는 것이 좋습니다.
+# 버전 관리 시스템에 있습니다.
+# https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; github.com/David-OConnor/pyflow 및 github.com/pdm-project/pdm 등에서 사용됨
+__pypackages__/
+
+# 셀러리 관련 내용
+셀러리비트 스케줄
+셀러리비트.pid
+
+# SageMath에서 파싱한 파일
+*.sage.py
+
+# 환경
+.env
+.venv
+환경/
+venv/
+환경/
+환경.bak/
+venv.bak/
+
+# Spyder 프로젝트 설정
+.스파이더프로젝트
+.스파이프로젝트
+
+# 로프 프로젝트 설정
+.로프프로젝트
+
+# mkdocs 문서
+/대지
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 파이어 유형 검사기
+.pyre/
+
+# pytype 정적 타입 분석기
+.pytype/
+
+# Cython 디버그 심볼
+사이톤 디버그/
+
+# 파이참
+# JetBrains 전용 템플릿은 별도의 JetBrains.gitignore 파일에 관리됩니다.
+# https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore 에서 확인할 수 있습니다.
+# 전역 gitignore에 추가하거나 이 파일에 병합할 수 있습니다. 더 근본적인 해결책은 다음과 같습니다.
+# 옵션 (권장하지 않음): 아이디어 폴더 전체를 무시하려면 다음 줄의 주석을 해제할 수 있습니다.
+#.아이디어/
+
+### 파이썬 패치 ###
+# Poetry 로컬 설정 파일 - https://python-poetry.org/docs/configuration/#local-configuration
+poetry.toml
+
+# 러프
+.ruff_cache/
+
+# LSP 설정 파일
+pyrightconfig.json
+
+### Vim ###
+# 교환
+[._]*.s[av][az]
+!*.svg # 벡터 파일이 필요하지 않으면 주석 처리하세요
+[._]*.교환]
+[._]s[a-rt-v][az]
+[._]ss[a-gi-z]
+[._]교환]
+
+# 세션
+세션.vim
+세션엑스.vim
+
+# 일시적인
+.netrwhist
+*~
+# 자동 생성된 태그 파일
+태그
+# 영구적인 실행 취소
+[._]*.un~
+
+### 윈도우 ###
+# 윈도우 썸네일 캐시 파일
+엄지.db
+Thumbs.db:암호화 가능
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.스택덤프
+
+# 폴더 설정 파일
+[Dd]esktop.ini
+
+# 파일 공유에서 사용되는 휴지통
+$RECYCLE.BIN/
+
+# 윈도우 설치 프로그램 파일
+*.택시
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 바로가기
+*.lnk
+
+# https://www.toptal.com/developers/gitignore/api/windows,vim,python 끝
